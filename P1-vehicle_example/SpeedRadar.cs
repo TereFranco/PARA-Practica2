@@ -26,7 +26,7 @@
         {
             if (speed > legalSpeed)
             {
-                return WriteMessage("Catched above legal speed.");
+                return WriteMessage("Catched above legal speed."); // se activa la alarma en el radar
             }
             else
             {

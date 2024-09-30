@@ -6,11 +6,14 @@
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
         private SpeedRadar speedRadar;
+        public bool chasing;
+        private PoliceStation station;
 
         public PoliceCar(string plate) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
+            station = new PoliceStation();  
         }
 
         public void UseRadar(Vehicle vehicle)
@@ -19,6 +22,12 @@
             {
                 speedRadar.TriggerRadar(vehicle);
                 string meassurement = speedRadar.GetLastReading();
+                if (meassurement == "Catched above legal speed.") // if the vehicle is catched
+                { 
+                    station.alert = true; // notify the alarm
+                    this.station.DetectedInfractor(vehicle.GetPlate()); // chasing is managed in PoliceStation
+
+                }
                 Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
             }
             else
