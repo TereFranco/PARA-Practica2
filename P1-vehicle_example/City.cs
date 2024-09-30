@@ -6,22 +6,23 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    class City
+    class City 
     {
-        private List<Taxi> TaxisCity { get; set; } 
+        private List<Taxi> TaxisCity { get; set; }
         private PoliceStation station;
 
-        public City()
+        public City(PoliceStation station)
         {
-            station = new PoliceStation();
+            
+            this.station = station;
             TaxisCity = new List<Taxi>();
         }
 
-        private void AddTaxiPlate(string plate) 
+        public void AddTaxiPlate(Taxi taxi) 
         { 
-            TaxisCity.Add(new Taxi(plate));
+            TaxisCity.Add(taxi);
         }
-        private void RetireTaxiPlate(string plate) // estoy modificando la lista a la vez
+        public void RetireTaxiPlate(string plate) // estoy modificando la lista a la vez
         {
             foreach (Taxi taxi in TaxisCity) 
             {
@@ -30,7 +31,6 @@ namespace Practice1
                     TaxisCity.Remove(taxi);
                 }
 
-                    
             }   
         }
     }
