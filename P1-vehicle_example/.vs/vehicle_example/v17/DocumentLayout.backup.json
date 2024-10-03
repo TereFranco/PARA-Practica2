@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mtfra\\onedrive - universidad pontificia comillas\\icai\\3 curso\\1er cuatri\\paradigmas y tecnicas de programacion\\practicas\\practica 2\\repos-p2\\p1-vehicle_example\\vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "VehicleWithoutPlate.cs",
               "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\VehicleWithoutPlate.cs",
               "RelativeDocumentMoniker": "VehicleWithoutPlate.cs",
@@ -51,7 +35,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\Vehicle.cs",
               "RelativeDocumentMoniker": "Vehicle.cs",
@@ -59,60 +43,7 @@
               "RelativeToolTip": "Vehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:07:33.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\City.cs",
-              "RelativeDocumentMoniker": "City.cs",
-              "ToolTip": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\City.cs",
-              "RelativeToolTip": "City.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T06:42:37.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PoliceCar.cs",
-              "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\PoliceCar.cs",
-              "RelativeDocumentMoniker": "PoliceCar.cs",
-              "ToolTip": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\PoliceCar.cs",
-              "RelativeToolTip": "PoliceCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:18:21.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PoliceStation.cs",
-              "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\PoliceStation.cs",
-              "RelativeDocumentMoniker": "PoliceStation.cs",
-              "ToolTip": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\PoliceStation.cs",
-              "RelativeToolTip": "PoliceStation.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T06:42:21.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpeedRadar.cs",
-              "DocumentMoniker": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeDocumentMoniker": "SpeedRadar.cs",
-              "ToolTip": "C:\\Users\\mtfra\\OneDrive - Universidad Pontificia Comillas\\ICAI\\3 Curso\\1er Cuatri\\Paradigmas y tecnicas de programacion\\Practicas\\Practica 2\\Repos-P2\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeToolTip": "SpeedRadar.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T06:42:53.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T16:07:33.629Z"
             }
           ]
         }
