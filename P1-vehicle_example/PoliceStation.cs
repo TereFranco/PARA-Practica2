@@ -18,29 +18,54 @@ namespace Practice1
             StationCars = new List<PoliceCar>();
         }
         // Register a police car
-        public void RegisterPoliceCar(string plate, bool hasRadar) 
+        public void RegisterPoliceCar(PoliceCar police) 
         { 
-            StationCars.Add(new PoliceCar(plate,hasRadar));
+            StationCars.Add(police);
         }
+
         // If alarm is activated all police chases car
-        public void DetectedInfractor(string plate) 
+        public void StartChase(string plate) 
         {
             this.alert = true;
+            Console.WriteLine(WriteMessage(plate));
             foreach (PoliceCar car in StationCars) 
             {
                 if (car.IsPatrolling())
                 {
-                    car.chasing = true;
+                    car.ChaseCar(true);
                     
                 }
             }
-             Console.WriteLine(WriteMessage(plate));
 
         }
+        
+        public void StopChase(string plate) 
+        {
+            this.alert = false;
+            Console.WriteLine(WriteMessage(plate));
+            foreach (PoliceCar car in StationCars)
+            {
+                if (car.IsPatrolling())
+                {
+                    car.ChaseCar(false);
+
+                }
+            }
+        }
+
         // implement interface
         public virtual string WriteMessage(string plate)
         {
-            return $"All PoliceCars patrolling chase vehicle with plate {plate}";
+            string message = "";
+            if (this.alert)
+            {
+                 message = "start";
+            }
+            else
+            {
+                 message = "stop";
+            }
+            return $"All PoliceCars patrolling {message} chasing vehicle with plate {plate}";
         }
 
     }

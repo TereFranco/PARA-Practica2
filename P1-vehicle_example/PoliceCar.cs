@@ -13,10 +13,11 @@ namespace Practice1
         private PoliceStation station;
         private bool hasRadar;
 
-        public PoliceCar(string plate,bool hasRadar) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate,bool hasRadar,PoliceStation myStation) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             this.hasRadar = hasRadar;
+            this.station = myStation;
             if (hasRadar)
             {
                 speedRadar = new SpeedRadar();
@@ -25,7 +26,7 @@ namespace Practice1
             {
                 speedRadar = null; 
             }
-            station = new PoliceStation();  
+              
         }
 
         public void UseRadar(Vehicle vehicle)
@@ -36,14 +37,14 @@ namespace Practice1
                 {
                     speedRadar.TriggerRadar(vehicle);
                     string meassurement = speedRadar.GetLastReading();
-                    if (meassurement == "Catched above legal speed.") // if the vehicle is catched
-                    {
-                        station.alert = true; // notify the alarm
-                        Console.WriteLine(WriteMessage($"Advised PoliceStation of illegal driving, car with plate {vehicle. GetPlate()}"));
-                        this.station.DetectedInfractor(vehicle.GetPlate()); // chasing is managed in PoliceStation
-
-                    }
+                    bool catched = meassurement.EndsWith("Catched above legal speed.");
+                    
                     Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                    if (catched) 
+                    {
+                        string plate = speedRadar.GetPlateLastReading();
+                        ActivateAlert(plate);
+                    }   
                 }
                 else 
                 {
@@ -57,6 +58,17 @@ namespace Practice1
             }
         }
 
+      
+        public void ActivateAlert(string plate)
+        {
+            this.station.StartChase(plate);
+        }
+
+        public void ChaseCar(bool chase) // send him to stop or to start
+        {
+            this.chasing = chase;
+
+        }
         public bool IsPatrolling()
         {
             return isPatrolling;

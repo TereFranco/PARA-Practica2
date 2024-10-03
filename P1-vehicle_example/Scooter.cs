@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    class Scooter: Vehicle
+    class Scooter: VehicleWithoutPlate
     {
         private static string typeOfVehicle = "Scooter";
-        public Scooter(string typeOfVehicle) : base(typeOfVehicle, "N/A") // in the field of plate none
+        public Scooter() : base(typeOfVehicle) 
         {
             
         }
